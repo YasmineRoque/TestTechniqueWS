@@ -1,1 +1,2 @@
 @import 'bulma';
+.has-bg-img { background: url('../public/images/img1.jpg')center center; background-size:cover; }
