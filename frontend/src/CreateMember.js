@@ -14,7 +14,7 @@ const CreateMember = () => {
     event.preventDefault();
     console.log(name);
     addArgonaute(name).then((res) => {
-      console.log(res.name);
+      console.log(res);
       setName("");
     });
   }
