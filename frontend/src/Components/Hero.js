@@ -4,12 +4,6 @@ import { Fragment } from "react";
 const Hero = () => {
   return (
     <Fragment>
-      {/* <section className="hero is-primary">
-        <div className="hero-body">
-          <p className="title">Primary hero</p>
-          <p className="subtitle">Primary subtitle</p>
-        </div>
-      </section> */}
       <section className="hero is-medium has-bg-img">
         <div className="hero-body">
           <div className="container has-text-centered">

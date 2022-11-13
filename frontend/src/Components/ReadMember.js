@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect, useState } from "react";
-import { getArgonautes } from "./ArgonauteData";
+import React, { useEffect, useState } from "react";
+import { getArgonautes } from "../API/ArgonauteData";
 
 const ReadMember = () => {
   const [argonautes, setArgonautes] = useState([]);

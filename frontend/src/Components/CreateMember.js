@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment, useState } from "react";
-import { addArgonaute } from "./ArgonauteData";
+import { addArgonaute } from "../API/ArgonauteData";
 
 const CreateMember = () => {
   const [name, setName] = useState("");
